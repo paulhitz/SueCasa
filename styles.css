@@ -1,0 +1,134 @@
+/**
+ * Stylesheet for www.suecasa.net 
+ *
+ * @author Paul Hitz
+ * @version 061219
+ */
+
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: small;
+    text-align: left;
+    background-color: #ffffff;
+    background-image: url(images/bg_purple.gif);
+    color: #000000;
+}
+
+#container {
+    width: 718px; /* 750px with border */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border-style: solid;
+    border-width: 16px;
+    border-color: #000000;
+    background-color: #ffffff;
+    background-image: url(images/house.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+#main {
+    width: 450px;
+    padding: 5px;
+    text-align: justify;
+}
+
+#title {
+    margin-top: 0;
+    margin-bottom: -9px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    color: #000000;
+    background-color: transparent;
+    letter-spacing: 5px;
+    text-align: left;
+    font-size: 350%;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 150%;
+    font-weight: normal;
+}
+
+p, li {
+    font-size: 90%;
+}
+
+li {
+    list-style-type: square;
+}
+
+.definition {
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    cursor: help;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #ff0000;
+    text-decoration: none;
+}
+a:active, a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+#credits, #credits a {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    font-size: 80%;
+    text-align: right;
+    color: #000000;
+    text-decoration: none;
+}
+#credits a:hover {
+    color: #ffffff;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+/* The following styles are for a menu (basically a styled list). But a menu is not used in the current version. */
+#menu {
+    float: right;
+}
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+#menu li {
+    list-style-type: none;
+}
+#menu a {
+    background-color: #dddddd;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 4px;
+    margin: 0;
+    border-color: #000000;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-left-width: 4px;
+    border-bottom-width: 4px;
+}
+#menu a:hover {
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Used to style access keys for the menu but a menu is not currently used. */
+em {
+    font-style: normal;
+    text-decoration: underline;
+}
+

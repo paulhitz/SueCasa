@@ -1,0 +1,51 @@
+/**
+ * Print Stylesheet for www.suecasa.net. This stylesheet is used for printing. 
+ * It hides all of the site except the content and uses more printer 
+ * friendly colours and fonts.
+ *
+ * @author Paul Hitz
+ * @version 061219
+ */
+
+
+body, #container, #main {
+    background-color: #ffffff;
+    background-image: none;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+}
+
+#container, #main {
+    background-image: none;
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+/* Not currently used */
+#menu {
+    display: none;
+}
+
+#title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: #000000;
+}
+
+a:link, a:visited {
+    color: #552200;
+    background: transparent;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:link:after, a:visited:after {
+    content: " (" attr(href) ") ";
+    font-size: 90%;
+}
+
+#credits {
+    display: none;
+}
